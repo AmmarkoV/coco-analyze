@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import matplotlib.path as mplPath
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon
-from scipy.misc import imresize
+#from scipy.misc import imresize
+from skimage.transform import resize as imresize
 import skimage.io as io
 
 """

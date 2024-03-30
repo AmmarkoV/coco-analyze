@@ -31,7 +31,7 @@ To run the extended multi-instance keypoint estimation error analysis: update th
     [saveDir]  -> ./results/fakekeypoints100
     [teamName] -> fakekeypoints100
     [version]  -> 1.0
-    $ python run_analysis.py [annFile] [dtsFile] [saveDir] [teamName] [version]
+    $ python3 run_analysis.py [annFile] [dtsFile] [saveDir] [teamName] [version]
 
 ### Results
  - A summary file called `[teamName]_performance_report.tex` will be created once the analysis is complete.
