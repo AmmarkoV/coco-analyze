@@ -26,7 +26,7 @@ Use the Makefile to install the coco-analyze api:
 ### Usage
 To run the extended multi-instance keypoint estimation error analysis: update the paths of the detections and annotations and execute the command line.
 
-    [annFile]  -> ./annotations/keypoints_val2014.json
+    [annFile]  -> ./annotations/person_keypoints_val2014.json
     [dtsFile]  -> ./detections/fakekeypoints100_keypoints_val2014_results.json
     [saveDir]  -> ./results/fakekeypoints100
     [teamName] -> fakekeypoints100
